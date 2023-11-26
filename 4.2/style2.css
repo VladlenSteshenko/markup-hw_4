@@ -1,0 +1,32 @@
+.block1 {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.squre {
+    height:100px;
+    width:100px;
+    position: absolute;
+}
+.squre1 {
+    left: 0;
+    top: 0;
+    background-color: #f88a86;
+    z-index: 1;
+}
+.squre2 {
+    left: 50px;
+    top: 50px;
+    background-color: #7d89f2;
+    z-index: 2;
+}
+.squre3 {
+    left: 100px;
+    top: 100px;
+    background-color: #6bef8d;
+    z-index: 1;
+}
+
+
+

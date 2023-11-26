@@ -1,0 +1,70 @@
+.block {
+    position: relative;
+    width: 353px;
+    height: 332px;
+    border:1px solid red;
+    margin:0 auto;
+    margin-top:50px;
+    overflow: hidden;
+}
+.squre {
+    position: absolute;
+    bottom: 20px;
+    left: 10px; 
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    animation:squre-animation 6s infinite ease-out 0s;
+}
+@keyframes squre-animation {
+
+    0% {
+        transform: translateX(0) translateY(0);
+        background-color: blue; 
+    }
+    12.5% {
+        transform: translateX(203px) translateY(0);
+        background-color: green; 
+
+    }
+    25% {
+        transform: translateX(203px) translateY(-202px);
+        background-color: yellow; 
+        animation-timing-function: linear;
+    }
+
+    34% {
+        transform: translateX(33px) translateY(-202px);
+        animation-timing-function: ease-out;
+    }
+    37.5% {
+        transform: translateX(0) translateY(-218px);
+        background-color: red; 
+        animation-timing-function: ease-out;
+    }
+
+    50% {
+        transform: translateX(0) translateY(10px);
+        background-color: blue; 
+    }
+    62.5% {
+        transform: translateX(203px) translateY(10px);
+        background-color: green; 
+
+    }
+    75% {
+        transform: translateX(203px) translateY(-218px);
+        background-color: yellow; 
+    }
+    87.5% {
+        transform: translateX(0) translateY(-218px);
+        background-color: red; 
+    }
+    100%{
+        transform: translateX(0) translateY(0);
+        background-color: blue; 
+    }
+}
+
+
+
